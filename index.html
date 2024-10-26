@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centered Image with Text</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    /* Body with full height and background overlay */
+    body {
+      margin: 0;
+      height: 100vh;
+      overflow-y: auto;
+      font-family: "Afacad Flux";
+      position: relative;
+    }
+
+    /* Background image with dark overlay */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('bernard-hermant-hQ3WZnY3yZ0-unsplash-min.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      filter: brightness(0.8); /* Darkens the background image */
+      z-index: -1; /* Ensures the overlay is behind the content */
+    }
+
+    /* Centering container */
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow-y: auto;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    /* Styling text */
+    .title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: rgb(255, 255, 255);
+    }
+
+    /* Styling image */
+    .image {
+      width: 100px; /* Adjust size as needed */
+      border-radius: 10px;
+    }
+
+    /* Username styling */
+    .user {
+      font-size: 1.2rem;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="lang-of-love.jpg" alt="Language of Love" class="image" />
+    <div class="title">Language of Love</div>
+    <div class="user">—@sauravmeghwal</div>
+  </div>
+</body>
+</html>
