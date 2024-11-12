@@ -1,84 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Saurav Meghwal</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap"
-    rel="stylesheet"
-  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future Me</title>
 
-  <style>
-    /* Body with full height and background overlay */
-    body {
-      margin: 0;
-      background-image: url('bernard-hermant-hQ3WZnY3yZ0-unsplash-min.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-      background-position: center;
-      z-index: 2398;
-      height: 100vh;
-      overflow-y: auto;
-      font-family: "Afacad Flux";
-      position: relative;
-    }
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="avatar.jpg" alt="" />
+      <nav class="nav">
+        <ul>
+          <!-- <li>About Me</li> -->
+          <!-- <li id="#home">Competence</li> -->
+          <button>Collaborate</button>
+        </ul>
+      </nav>
+    </header>
 
-    /* Background image with dark overlay */
-    body::before {
-      content: "";
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(249, 0, 0, 0.59);
-     z-index: -1; /* Ensures the overlay is behind the content */
-    }
+    <main class="home" id="home">
+      <div class="inside-home">
+        <h1 class="title">Hi I'm Saurav<span class="exclamation">!</span></h1>
+        <img src="avatar.jpg" alt="" />
+        <p>
+          A seasoned entrepreneur work toward solving important hard problem
+          exponentially....
+        </p>
+      </div>
+    </main>
 
-    /* Centering container */
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      overflow-y: auto;
-      padding: 20px;
-      box-sizing: border-box;
-      text-align: center;
-    }
+    <!--  ABOUT Section Starts -->
+    <main class="about">
+      <div class="about-inner">
+        <h1>More About Me</h1>
+        <p>
+          Nice to meet you, The world's given name is Saurav, I'm a fullstack
+          developer with piled
+          <span
+            class="link"
+            data-color="black"
+            data-name="GitHub"
+            data-href="https://github.com/hyperingenious"
+          ></span>
+          of 70+ repositories with web projects,
+          <span
+            class="link"
+            data-color="black"
+            data-name="PurpleNight"
+            data-href="https://purplenight.hyperingenious.tech"
+          ></span>
+          is the latest one I'm working with. Please understand 19 years of
+          existential crises.
+        </p>
 
-    /* Styling text */
-    .title {
-      font-size: 2rem;
-      font-weight: bold;
-      margin-bottom: 1rem;
-      color: rgb(255, 255, 255);
-    }
+        <p style="text-decoration: underline; margin-top: 1rem;">
+          Normie Stack:  
+          <ul style="margin-left: 1.2rem;">
+            <li>Reactjs</li>
+            <li>Nodejs</li>
+            <li>React Native</li>
+            <li>Python</li>
+            <li>MongoDB</li>
+          </ul>
+        </p>
 
-    /* Styling image */
-    .image {
-      width: 100px; /* Adjust size as needed */
-      border-radius: 10px;
-    }
+        <p style="text-decoration: underline;margin-bottom: 0.5rem; margin-top: 1rem;">
+          Previous Gigs:
+        </p>
 
-    /* Username styling */
-    .user {
-      font-size: 1.2rem;
-      color: white;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <img src="lang-of-love.jpg" alt="Language of Love" class="image" />
-    <div class="title">Language of Love</div>
-    <div class="user">—@sauravmeghwal</div>
-  </div>
-</body>
+        <p class="small-weight">
+          <span style="text-decoration: underline;">
+            <span
+            class="link"
+            data-color="black"
+            data-name="StarXMedia,"
+            data-href="https://starxmedia.in"
+          ></span></span> Aug 2023—Oct 2023  <span class="dim">3 months</span></p>
+        <p class="small-weight">Frontend Web Developer</p>
+        <p class="dim">I worked at StarXMedia, where I was responsible for designing their dashboard using React, managing data fetching with Redux, and refactoring existing code for improved performance and maintainability. I gained valuable experience in collaboration, building production-grade applications, and scaling them efficiently.
+        </p>
+
+        <p class="small-weight" style="margin-top: 1rem;">
+         <span style="text-decoration: underline;">
+          <span
+            class="link"
+            data-color="black"
+            data-name="The Alpha Ones,"
+            data-href="https://thealphaones.com"
+          ></span>
+         </span> Nov 2023—Oct 2024 <span class="dim">11 months</span> </p>
+        <p class="small-weight">Full Stack Developer, Idea collaborator, designer</p>
+        <p class="dim">The Alpha Ones is a dynamic group of tech enthusiasts exploring areas like software development, AI/ML, UI/UX design, and hardware. I contributed to the TAO project by completely rewriting the codebase to scale it up, collaborating closely with designers and backend developers. Additionally, I participated in multiple hackathons, winning second place in one with "<span class="link" data-color="purple" data-name="Eventually" data-href="https://eventually-web.vercel.app/"></span>" — a reimagined journaling app that evokes nostalgia and calmness.
+        </p>
+ 
+        <p class="small-weight" style="margin-top: 1rem;">
+         <span style="text-decoration: underline;">
+          <span
+            class="link"
+            data-color="black"
+            data-name="WeConnectSoftware,"
+            data-href="https://www.weconnectsoft.com/"
+          ></span>
+         </span> Mar 2024—May 2024 <span class="dim">3 months</span> </p>
+        <p class="small-weight">Frontend Dev, SEO</p>
+        <p class="dim">Very terrible experience, fuckers stole my 1 month salary.
+        </p>
+<hr style="margin: 1.5rem 0rem;">
+      <p style="margin-bottom: 0.5rem;font-size: 1.25rem;">PROJECTS:</p>
+      <div class="project-container"> 
+        <div class="project-image purplenight"></div>
+          <div>
+            <p>
+            <span
+            class="link"
+            data-color="black"
+            data-name="PurpleNight"
+            data-href="https://purplenight.hyperingenious.tech"
+          ></span>
+        </p>
+            <p class="dim">
+             A platform that uses AI to help you read more books by breaking them down into blog-sized content. Each blog contains exact lines and paragraphs from the original book, making reading more digestible and engaging. 
+              </p>
+          </div>
+        </div>
+      </div>
+
+    </main>
+    <!-- ABOUT Section Ends -->
+
+    <main class="projects">
+      <div class="project project-1">
+        <div class="project-title">Pulsevidia</div>
+        <div class="project-desc">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
+          excepturi?
+        </div>
+      </div>
+      <div class="project project-2">
+        <div class="project-title">VSpaceY</div>
+        <div class="project-desc">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
+          excepturi?
+        </div>
+      </div>
+      <div class="project project-3">
+        <div class="project-title">Balorant</div>
+        <div class="project-desc">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
+          excepturi?
+        </div>
+      </div>
+      <div class="project project-4">
+        <div class="project-title">Haldur Gate</div>
+        <div class="project-desc">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
+          excepturi?
+        </div>
+      </div>
+    </main>
+    <main class="home">
+      <div class="inside-home">
+        <h1 class="work-together" style="text-align: center">Work Together</h1>
+        <p>
+          Looing forward with Collaborate with creative, ping me up for future
+          ingeniuine collaborations
+        </p>
+        <button class="last-collab">Collaborate</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
