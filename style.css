@@ -11,6 +11,10 @@ body {
   background-position: center;
 }
 
+.fast-move {
+  cursor: url("sperm.svg"), auto;
+}
+
 header {
   margin: 0.5rem;
   padding: 1rem 1rem;
@@ -44,7 +48,7 @@ header img {
 }
 
 button {
-box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px,
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px,
     rgba(19, 19, 22, 0.05) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
 
@@ -179,7 +183,7 @@ box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px,
   box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px,
     rgba(19, 19, 22, 0.05) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
-font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 13px 34px;
   font-size: 1rem;
   background-color: #f3f3f3;
@@ -193,7 +197,7 @@ font-family: "Poppins", sans-serif;
   box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px,
     rgba(19, 19, 22, 0.05) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
-/* box-shadow: #00000024 0px 4px 7px 1px; */
+  /* box-shadow: #00000024 0px 4px 7px 1px; */
   font-family: "Poppins", sans-serif;
   visibility: hidden;
   padding: 9px 16px;
@@ -258,7 +262,7 @@ font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
 }
-.about-inner{
+.about-inner {
   max-width: 600px;
 }
 .about-inner p {
@@ -301,12 +305,12 @@ font-family: "Poppins", sans-serif;
 }
 
 /* socials */
-.socials{
+.socials {
   margin-bottom: 1rem;
- display: flex; 
- justify-content: flex-end;
- gap: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
 }
-.socials a{
+.socials a {
   text-decoration: none;
 }
