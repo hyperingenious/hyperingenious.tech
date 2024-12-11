@@ -7,12 +7,12 @@
 body {
   background-repeat: no-repeat;
   background-size: cover;
-  cursor: url("penis.svg"), auto;
+  /* cursor: url("penis.svg"), auto; */
   background-position: center;
 }
 
 .fast-move {
-  cursor: url("sperm.svg"), auto;
+  /* cursor: url("sperm.svg"), auto; */
 }
 
 header {
