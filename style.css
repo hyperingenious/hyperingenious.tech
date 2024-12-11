@@ -10,6 +10,12 @@ body {
   /* cursor: url("penis.svg"), auto; */
   background-position: center;
 }
+video {
+  margin-top:1rem;
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
+  border-radius: 0.5rem; /* Rounded corners (8px by default) */
+}
 
 .fast-move {
   /* cursor: url("sperm.svg"), auto; */
@@ -249,6 +255,7 @@ button {
 
 .about {
   margin: 0.5rem;
+  flex-direction: column;
   padding: 1.5rem 1rem;
   min-height: 100vh;
   background-color: rgb(243, 243, 243);
@@ -258,6 +265,11 @@ button {
   justify-content: center;
 }
 
+.about-inner {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
 .about-inner h1 {
   font-size: 2.5rem;
   font-weight: 500;
