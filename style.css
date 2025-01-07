@@ -21,6 +21,41 @@ video {
   /* Rounded corners (8px by default) */
 }
 
+.badge {
+  padding: 0.2rem;
+  text-decoration: none;
+  background-color: rgb(225, 225, 225);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+  width: fit-content;
+  /* box-shadow: 0 1px 1px rgba(0, 0, 0, .05), 0 4px 6px rgba(34, 42, 53, .04), 0 24px 68px rgba(47, 48, 55, .05), 0 2px 3px rgba(0, 0, 0, .04); */
+}
+
+.badges {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.badge-icon {
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  background-color: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05), 0 4px 6px rgba(34, 42, 53, .04), 0 24px 68px rgba(47, 48, 55, .05), 0 2px 3px rgba(0, 0, 0, .04);
+
+  border-radius: 100px;
+}
+
+.badge-name {
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: rgb(89, 89, 89);
+  padding-right: 0.2rem;
+}
 
 .wrapper {
   z-index: 283328;
@@ -52,9 +87,14 @@ video {
   .author_name {
     font-size: 1.75rem;
   }
-  .typing-demo{
+
+  .typing-demo {
     font-size: 2.4rem;
   }
+}
+
+.shifted {
+  margin-left: 1rem;
 }
 
 
@@ -85,6 +125,7 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
 .link a {
   text-decoration: none;
 }
@@ -364,9 +405,15 @@ button {
 /* Project */
 .project-container {
   max-width: 600px;
+  flex-direction: column;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  gap: 2rem;
+}
+
+.sub-project-container {
+  display: flex;
   gap: 1rem;
 }
 
@@ -384,6 +431,21 @@ button {
   background-position: center;
   background-size: cover;
 }
+
+.eventually {
+  background-image: url("eventually.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 14px;
+}
+
+.windup {
+  background-image: url("windowmanager.webp");
+  background-position: center;
+  background-size: cover;
+  border-radius: 14px;
+}
+
 
 .stack {
   display: flex;
@@ -403,7 +465,7 @@ button {
 .socials {
   margin-bottom: 1rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   gap: 1rem;
 }
 
