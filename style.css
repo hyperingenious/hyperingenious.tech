@@ -431,7 +431,24 @@ button {
   background-image: url("favicon.svg");
   background-position: center;
   background-size: cover;
+
 }
+.lushh {
+  background-image: url("lushh.jpeg");
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 14px;
+}
+.resell {
+  background-color: #ffffff;
+  background-image: url("resell.png");
+  border-radius: 14px;
+  background-position: center;
+  background-size: cover;
+}
+
+
 
 .eventually {
   background-image: url("eventually.png");
@@ -450,6 +467,7 @@ button {
 
 .stack {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.25rem;
 }
 
